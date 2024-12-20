@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(32, 31, 31);
+  color: whitesmoke;
+  padding: 8px;
+  font-size: 2em;
+}
+
+.nav a {
+  color: whitesmoke;
+  text-decoration: none;
+
+}
+
+.nav a:hover {
+  color: black;
+  background-color: aqua;
+}
